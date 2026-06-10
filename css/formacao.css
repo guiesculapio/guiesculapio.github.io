@@ -1,6 +1,9 @@
 .formacao {
   background: #141414;
   color: #ffffff;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
 }
 
 .formacao-container {
@@ -22,6 +25,7 @@
   position: absolute;
   bottom: -50px;
   left: 20px;
+  z-index: 1;
 }
 
 .formacao .subtitulo {
